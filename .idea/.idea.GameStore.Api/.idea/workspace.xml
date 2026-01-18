@@ -9,21 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3ae4e72-55af-4f72-89fd-afe3ec6f374d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api.slnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/GameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Endpoints/GamesEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/GameStore.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameStore.Api/games.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T203621.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T204158.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T210507.500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T210535.500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/games.http" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/games.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,7 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -102,8 +97,8 @@
             <map>
               <entry key="games | #3" value="STOPPED" />
               <entry key="games | Delete Game" value="STOPPED" />
-              <entry key="games | Get Game by Id" value="STOPPED" />
               <entry key="games | Get Games" value="STOPPED" />
+              <entry key="games | Post Game" value="STOPPED" />
               <entry key="games | Update Game" value="STOPPED" />
             </map>
           </value>
@@ -115,10 +110,10 @@
     <configuration name="games | Delete Game" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Delete Game" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="games | Get Game by Id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Get Game by Id" index="2" runType="Run single request">
+    <configuration name="games | Get Games" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Get Games" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="games | Get Games" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Get Games" runType="Run single request">
+    <configuration name="games | Post Game" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Post Game" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="games | Update Game" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/GameStore.Api/games.http" executionIdentifier="Update Game" index="5" runType="Run single request">
@@ -161,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.games | #3" />
-        <item itemvalue="HTTP Request.games | Get Games" />
-        <item itemvalue="HTTP Request.games | Delete Game" />
-        <item itemvalue="HTTP Request.games | Get Game by Id" />
         <item itemvalue="HTTP Request.games | Update Game" />
+        <item itemvalue="HTTP Request.games | Post Game" />
+        <item itemvalue="HTTP Request.games | Get Games" />
+        <item itemvalue="HTTP Request.games | #3" />
+        <item itemvalue="HTTP Request.games | Delete Game" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1768728104749</updated>
       <workItem from="1768728105826" duration="5136000" />
-      <workItem from="1768772826152" duration="3542000" />
+      <workItem from="1768772826152" duration="5129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
