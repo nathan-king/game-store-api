@@ -1,0 +1,8 @@
+{
+  "title": "One or more validation errors occurred.",
+  "errors": {
+    "Price": [
+      "The field Price must be between 1 and 100."
+    ]
+  }
+}

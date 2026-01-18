@@ -1,0 +1,8 @@
+{
+  "title": "One or more validation errors occurred.",
+  "errors": {
+    "Genre": [
+      "The Genre field is required."
+    ]
+  }
+}
