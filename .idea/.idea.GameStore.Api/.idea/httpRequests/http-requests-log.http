@@ -1,0 +1,531 @@
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T091436.200.json
+
+###
+
+DELETE http://localhost:5154/games/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T091427.200.json
+
+###
+
+PUT http://localhost:5154/games/2
+Content-Type: application/json
+Content-Length: 101
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Legend of Zelda",
+  "genre": "Fantasy",
+  "price": 9.99,
+  "releaseDate": "1995-05-10"
+}
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T091415.200.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-19T091411.201.json
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T091404.200.json
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090636.500.txt
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090627.500.txt
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090538.500.txt
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090527.500.txt
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090229.200.json
+
+###
+
+GET http://localhost:5154/games/5
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-19T090219.200.json
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T213941.200.json
+
+###
+
+DELETE http://localhost:5154/games/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T213930.200.json
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212657.200.json
+
+###
+
+PUT http://localhost:5154/games/2
+Content-Type: application/json
+Content-Length: 101
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Legend of Zelda",
+  "genre": "Fantasy",
+  "price": 9.99,
+  "releaseDate": "1995-05-10"
+}
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212646.200.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T212644.201.json
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212642.200.json
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212640.200.json
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212638.200.json
+
+###
+
+PUT http://localhost:5154/games/2
+Content-Type: application/json
+Content-Length: 101
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Legend of Zelda",
+  "genre": "Fantasy",
+  "price": 9.99,
+  "releaseDate": "1995-05-10"
+}
+
+<> 2026-01-18T212527.500.txt
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212513.200.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T212510.201.json
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212508.200.json
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212504.200.json
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212501.200.json
+
+###
+
+PUT http://localhost:5154/games/2
+Content-Type: application/json
+Content-Length: 101
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Legend of Zelda",
+  "genre": "Fantasy",
+  "price": 9.99,
+  "releaseDate": "1995-05-10"
+}
+
+<> 2026-01-18T212445.500.txt
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T212338.200.json
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T211714.200.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T211710.201.json
+
+###
+
+GET http://localhost:5154/games/4
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T211655.200.json
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T211554.200.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T211302.201.json
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T211050.500.txt
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T210653.500.txt
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T210535.500.txt
+
+###
+
+POST http://localhost:5154/games
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+<> 2026-01-18T210507.500.txt
+
+###
+
+GET http://localhost:5154/games/2
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T204158.200.json
+
+###
+
+GET http://localhost:5154/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-18T203621.200.json
+
+###
+

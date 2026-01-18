@@ -1,0 +1,33 @@
+### Get Games
+GET http://localhost:5154/games
+
+### Get Game by Id
+GET http://localhost:5154/games/2
+
+###
+GET http://localhost:5154/games/5
+
+#### Post Game
+POST http://localhost:5154/games
+Content-Type: application/json
+
+{
+  "name": "Super Mario Bros",
+  "genre": "Platformer",
+  "price": 59.99,
+  "releaseDate": "2023-10-15"
+}
+
+### Update Game
+PUT http://localhost:5154/games/2
+Content-Type: application/json
+
+{
+  "name": "Legend of Zelda",
+  "genre": "Fantasy",
+  "price": 9.99,
+  "releaseDate": "1995-05-10"
+}
+
+### Delete Game
+DELETE http://localhost:5154/games/1
