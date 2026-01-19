@@ -9,15 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3ae4e72-55af-4f72-89fd-afe3ec6f374d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T203621.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T204158.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T210507.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/2026-01-18T210535.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameStore.Api/Data/DataExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameStore.Api/Data/GameStoreContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameStore.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/GameStore.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/GameStore.Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameStore.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameStore.Api/games.http" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/games.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +35,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GameStore.Api/Data/DataExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameStore.Api/Data/GameStoreContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameStore.Api/Dtos/CreateGameDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameStore.Api/Dtos/GameDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameStore.Api/Dtos/UpdateGameDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameStore.Api/Endpoints/GamesEndpoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameStore.Api/Models/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameStore.Api/Models/Genre.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
@@ -64,7 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.GameStore.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.GameStore.Api: http.executor": "Debug",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "HTTP Request.games | #3.executor": "Run",
     "HTTP Request.games | Delete Game.executor": "Run",
@@ -77,7 +78,6 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,8 +85,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.22833844",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RunDashboard">
@@ -172,8 +178,21 @@
       <option name="presentableId" value="Default" />
       <updated>1768728104749</updated>
       <workItem from="1768728105826" duration="5136000" />
-      <workItem from="1768772826152" duration="5129000" />
+      <workItem from="1768772826152" duration="6160000" />
+      <workItem from="1768779214102" duration="57000" />
+      <workItem from="1768779316243" duration="72000" />
+      <workItem from="1768779398548" duration="82000" />
+      <workItem from="1768779491790" duration="3649000" />
     </task>
+    <task id="LOCAL-00001" summary="Add validation">
+      <option name="closed" value="true" />
+      <created>1768778041653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768778041654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +202,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,6 +220,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/GameStore.Api/Data/DataExtensions.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/GameStore.Api/Data/DataExtensions.cs" containingFunctionPresentation="Method 'AddGameStoreDb'">
+            <startOffsets>
+              <option value="566" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1228" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
